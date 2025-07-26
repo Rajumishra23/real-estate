@@ -21,11 +21,11 @@ const Navbar = () => {
       <div className='container mx-auto flex justify-between items-center py-1 px-1 md:px-25lg:px- b40g-transparent'>
         <img src={logo} alt="Logo"/>
 
-        <ul className='hidden md:flex gap-7 text-white'>
-          <a href="#Header" className='cursor-pointer hover:text-gray-400'><u><b>Home</b></u></a>
-          <a href="#About" className='cursor-pointer hover:text-gray-400'><u><b>About</b></u></a>
-          <a href="#Projects" className='cursor-pointer hover:text-gray-400'><u><b>Projects</b></u></a>
-          <a href="#Testimonials" className='cursor-pointer hover:text-gray-400'><u><b>Testimonials</b></u></a>
+        <ul className='hidden md:flex gap-7 text-2xl text-white'>
+          <a href="#Header" className='cursor-pointer hover:text-gray-900'><u><b>Home</b></u></a>
+          <a href="#About" className='cursor-pointer hover:text-gray-800'><u><b>About</b></u></a>
+          <a href="#Projects" className='cursor-pointer hover:text-gray-800'><u><b>Projects</b></u></a>
+          <a href="#Testimonials" className='cursor-pointer hover:text-gray-800'><u><b>Testimonials</b></u></a>
         </ul>
     
     
